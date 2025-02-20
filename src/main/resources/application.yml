@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: evcharging-api
+  datasource:
+    url: jdbc:postgresql://localhost:5433/evcharging-db
+    username: admin
+    password: admin123
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+
+
+logging:
+  pattern:
+    console: '%clr(%d{dd-MM-yyyy HH:mm:ss}){faint} %clr(%5p) %clr([%t]){faint} %clr(%-40.40logger){cyan} %clr(:){yellow} %m%n'
+  file:
+    name: app.log
+  level:
+    root: warn
+    org:
+      example:
+        evchargingapi: info
+
+springdoc:
+  override-with-generic-response: false
