@@ -162,26 +162,27 @@ senha: user123
 ### Autenticação via Client Credentials
 1. Abra o postman
 
-2. selecione Authorization e depois selecione Auth Type: OAuth 2.0
-(caminho/para/imagem.png)
+2. selecione Authorization e depois selecione Auth Type: OAuth 2.0  
+![](ReadMePrints/authorization_oauth2.png)
 
-3. Coloque o Grant type - Client Credentials e preencha os dados como na imagem:
-(caminho/para/imagem.png)
+4. Coloque o Grant type - Client Credentials e preencha os dados como na imagem:
+![](ReadMePrints/client_credentials.png)
 
-4. Clique para gerar um TOKEN de acesso e utilize ele para fazer as requisições.
-(caminho/para/imagem.png)
+5. Clique para gerar um TOKEN de acesso e utilize ele para fazer as requisições.
+![](ReadMePrints/token_example.png)
 
 ### Autenticação via Authorization Code
 1. Abra o postman
  
-2. selecione Authorization e depois selecione Auth Type: OAuth 2.0
-(caminho/para/imagem.png)
+2. selecione Authorization e depois selecione Auth Type: OAuth 2.0    
+![](ReadMePrints/authorization_oauth2.png)
 
 3. Coloque o Grant type - Authorization Code e preencha os dados como na imagem:
-(caminho/para/imagem.png)
+![](ReadMePrints/authorization_code.png)
 
 4. Clique para gerar um TOKEN de acesso e a aplicação irá redirecionar para uma página de Login.
-(caminho/para/imagem.png)
+![](ReadMePrints/signIn_oauth2.png)
 
-5. Insira um Usuário válido e pegue seu TOKEN de acesso.
-(caminho/para/imagem.png)
+5. Insira um Usuário válido e pegue seu TOKEN de acesso e utilize ele para fazer as requisições.
+![](ReadMePrints/token_example.png)
+
