@@ -156,7 +156,7 @@ senha: user123
  senha: admin123
  - Auth_Client:   
   clientId: client@client.com  
-  senha: client123
+  clientSecret: client123
 
 
 ### Autenticação via Client Credentials
